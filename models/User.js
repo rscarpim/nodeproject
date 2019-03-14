@@ -26,7 +26,8 @@ const Users = sequelize.define('tb_users', {
     },
     u_level_id:{
         allowNull: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        defaultValue: 0
     },
     u_name_first:{
         allowNull: true,
