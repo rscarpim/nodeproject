@@ -1,33 +1,84 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  flex: 1 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidenav-trigger i {
+  height: 56px;
+  line-height: 56px;
+  color: red;
+}
+.side-nav .user-view,
+.side-nav .userView {
+  height: 128px;
+}
+nav ul a:hover {
+  background-color: transparent !important;
+}
+nav ul a:focus {
+  outline: none;
+}
+.navbar-fixed nav {
+  box-shadow: none;
+}
+.navbar-fixed nav:hover {
+  background-color: transparent !important;
+}
+
+.navbar-fixed nav ul a {
+  color: red !important;
+}
+.brand-logo {
+  color: #333 !important;
+}
+
+.gradient-45deg-deep-grey {
+  background: #8e24aa;
+  background: -webkit-linear-gradient(45deg, white 0%, #ff6e40 100%);
+  background: linear-gradient(45deg, white 0%, grey 100%);
+}
+
+.gradient-45deg-amber-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
+}
+.gradient-45deg-amber-amber {
+  background: #ff6f00;
+  background: -webkit-linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+  background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+}
+.gradient-45deg-green-teal {
+  background: #43a047;
+  background: -webkit-linear-gradient(45deg, #43a047 0%, #1de9b6 100%);
+  background: linear-gradient(45deg, #43a047 0%, #1de9b6 100%);
+}
+.gradient-45deg-cyan-light-green {
+  background: #00e5ff;
+  background: -webkit-linear-gradient(45deg, #00e5ff 0%, #ccff90 100%);
+  background: linear-gradient(45deg, #00e5ff 0%, #ccff90 100%);
+}
+
+.gradient-45deg-cyan-light-green {
+  background: #0097a7;
+  background: -webkit-linear-gradient(45deg, #0097a7 0%, #b2ff59 100%);
+  background: linear-gradient(45deg, #0097a7 0%, #b2ff59 100%);
+}
+.gradient-45deg-purple-deep-orange.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 110, 64, 0.5);
+}
+.gradient-45deg-purple-deep-orange {
+  background: #8e24aa;
+  background: -webkit-linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%);
+  background: linear-gradient(45deg, #8e24aa 0%, #ff6e40 100%);
+}
+
+/******************************************************/
+/* Classes */
+.txt-title {
+  margin-top: 16px;
+  margin-left: -15px;
 }

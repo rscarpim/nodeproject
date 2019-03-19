@@ -14,14 +14,6 @@ const validateLoginInput = require("../../validation/login");
 
 /* Load the User Model. */
 const User = require("../../models/User");
-/* 
-    GET     : api/user/test
-    Desc    : Test the route Connection
-    Access  : Public
-    Created@: 3/11/2019
-    Author  : Ricardo Scarpim.
-*/
-router.get("/test", (req, res) => res.json({ msg: "Users Works" }));
 
 /* 
     POST    : api/users/register
