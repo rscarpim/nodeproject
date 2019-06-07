@@ -1,8 +1,8 @@
-const http = require("http");
-const express = require("express");
-const sequelize = require("./database/database");
+const http       = require("http");
+const express    = require("express");
+const sequelize  = require("./database/database");
 const bodyParser = require("body-parser");
-const passport = require("passport");
+const passport   = require("passport");
 
 /* Routes. */
 const usersRoutes = require("./routes/api/Users");
